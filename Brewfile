@@ -1,4 +1,5 @@
 # Taps
+tap 'AdoptOpenJDK/openjdk'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
@@ -40,6 +41,7 @@ brew 'zsh'
 
 # Apps
 cask '1password'
+cask 'adoptopenjdk14'
 cask 'corretto'
 cask 'docker'
 cask 'dropbox'
