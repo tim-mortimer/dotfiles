@@ -41,6 +41,7 @@ brew 'zsh'
 
 # Apps
 cask '1password'
+cask 'adoptopenjdk8'
 cask 'adoptopenjdk14'
 cask 'corretto'
 cask 'docker'
