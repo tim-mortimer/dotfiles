@@ -66,6 +66,3 @@ cask 'spectacle'
 cask 'tableplus'
 cask 'visual-studio-code'
 cask 'zoom'
-
-# Fonts
-cask 'font-source-code-pro-for-powerline'
