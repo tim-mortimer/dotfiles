@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
+tap 'homebrew/services'
 tap 'aws/tap'
 
 # Binaries
