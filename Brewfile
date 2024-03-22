@@ -32,7 +32,6 @@ brew 'zsh'
 
 # Apps
 cask '1password'
-cask 'citrix-workspace'
 cask 'cloudflare-warp'
 cask 'corretto'
 cask 'discord'
@@ -56,5 +55,4 @@ cask 'slack'
 cask 'spectacle'
 cask 'tableplus'
 cask 'visual-studio-code'
-cask 'webex'
 cask 'zoom'
