@@ -10,4 +10,7 @@ export PATH="$HOME/go/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
+# Load postgresql binaries
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+
 export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.18)
