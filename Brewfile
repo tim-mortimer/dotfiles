@@ -1,5 +1,6 @@
 # Taps
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 tap 'aws/tap'
@@ -54,5 +55,6 @@ cask 'skype'
 cask 'slack'
 cask 'spectacle'
 cask 'tableplus'
+cask 'temurin19'
 cask 'visual-studio-code'
 cask 'zoom'
