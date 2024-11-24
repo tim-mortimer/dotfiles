@@ -1,5 +1,4 @@
 # Taps
-tap 'aws/tap'
 tap 'pulumi/tap'
 
 # Binaries
