@@ -40,7 +40,7 @@ If you did all of the above you may now follow these install instructions to set
     git clone git@github.com:tim-mortimer/dotfiles.git ~/.dotfiles
     ```
 
-4. Run `~/.dotfiles/install.sh` to start the installation
+4. Run the installation with: `cd ~/.dotfiles && ./install.sh`
 5. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
