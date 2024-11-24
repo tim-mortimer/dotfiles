@@ -1,16 +1,12 @@
-# Load Composer tools
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+# Add directories to the PATH and prevent to add the same directory multiple times upon shell reload.
+add_to_path() {
+  if [[ -d "$1" ]] && [[ ":$PATH:" != *":$1:"* ]]; then
+    export PATH="$1:$PATH"
+  fi
+}
 
-# Load Node global installed binaries
-export PATH="$HOME/.node/bin:$PATH"
-
-# Load Go binaries
-export PATH="$HOME/go/bin:$PATH"
+# Load global Node installed binaries
+add_to_path "$HOME/.node/bin"
 
 # Use project specific binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
-
-# Load postgresql binaries
-export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
-
-export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.18)
+add_to_path "node_modules/.bin"
