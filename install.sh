@@ -30,3 +30,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Hush login prompt
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
+
+# Configure git
+git config --global core.excludesfile ~/.dotfiles/.gitignore_global
+git config --global core.autocrlf true
