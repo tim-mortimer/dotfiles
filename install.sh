@@ -34,3 +34,5 @@ ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 # Configure git
 git config --global core.excludesfile ~/.dotfiles/.gitignore_global
 git config --global core.autocrlf true
+git config --global user.name "Tim Mortimer"
+git config --global user.email tim@kiteframe.co.uk
