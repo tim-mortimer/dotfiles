@@ -7,6 +7,7 @@ brew 'git'
 brew 'htop'
 brew 'httpie'
 brew 'jq'
+brew 'mas' # Mac App Store manager
 brew 'maven'
 brew 'nginx'
 brew 'node'
@@ -41,3 +42,6 @@ cask 'signal'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'zoom'
+
+# Mac App Store
+mas 'Microsoft To Do', id: 1274495053
