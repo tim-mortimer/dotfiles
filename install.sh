@@ -10,10 +10,18 @@ fi
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  setup_homebrew 
 fi
+
+setup_homebrew() {
+  if [ "$(uname -m)" = "x86_64" ]; then
+    BREW_PATH="/usr/local/bin/brew"
+  else
+    BREW_PATH="/opt/homebrew/bin/brew"
+  fi
+  echo "eval \"\$($BREW_PATH shellenv)\"" >> "$HOME/.zprofile"
+  eval "$($BREW_PATH shellenv)"
+}
 
 # Update Homebrew recipes
 brew update
