@@ -1,6 +1,3 @@
-# Taps
-tap 'pulumi/tap'
-
 # Binaries
 brew 'awscli'
 brew 'git'
