@@ -43,6 +43,7 @@ cask 'raspberry-pi-imager'
 cask 'rectangle'
 cask 'signal'
 cask 'slack'
+cask 'utm'
 cask 'visual-studio-code'
 cask 'zoom'
 
