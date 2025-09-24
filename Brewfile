@@ -47,5 +47,8 @@ cask 'utm'
 cask 'visual-studio-code'
 cask 'zoom'
 
+# Fonts
+cask 'font-montserrat'
+
 # Mac App Store
 mas 'Microsoft To Do', id: 1274495053
