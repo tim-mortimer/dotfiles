@@ -19,6 +19,7 @@ brew 'zsh'
 
 # Apps
 cask '1password'
+cask '1password-cli'
 cask 'citrix-workspace'
 cask 'cloudflare-warp'
 cask 'corretto@21'
