@@ -1,4 +1,5 @@
 # Binaries
+brew 'ansible'
 brew 'awscli'
 brew 'git'
 brew 'htop'
