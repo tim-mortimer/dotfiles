@@ -44,3 +44,4 @@ git config --global core.excludesfile ~/.dotfiles/.gitignore_global
 git config --global core.autocrlf input
 git config --global user.name "Tim Mortimer"
 git config --global user.email tim@kiteframe.co.uk
+git config --global init.defaultBranch main
