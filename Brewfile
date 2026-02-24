@@ -21,6 +21,7 @@ brew 'zsh'
 # Apps
 cask '1password'
 cask '1password-cli'
+cask 'claude-code'
 cask 'cloudflare-warp'
 cask 'corretto@21'
 cask 'discord'
