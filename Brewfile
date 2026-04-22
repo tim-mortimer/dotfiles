@@ -8,6 +8,7 @@ brew 'jq'
 brew 'mas' # Mac App Store manager
 brew 'maven'
 brew 'nginx'
+brew 'nmap'
 brew 'node'
 brew 'podman'
 brew 'podman-compose'
